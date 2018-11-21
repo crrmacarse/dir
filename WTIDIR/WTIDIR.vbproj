@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53F89938-5796-4A59-AADE-8B4993436743}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WTIDIR.My.MyApplication</StartupObject>
+    <RootNamespace>WTIDIR</RootNamespace>
+    <AssemblyName>WTIDIR</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WTIDIR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WTIDIR.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\clsAccountUser.vb" />
+    <Compile Include="Class\clsKeyValuePair.vb" />
+    <Compile Include="Class\clsTheme.vb" />
+    <Compile Include="Delivery\frmImportDelivery.Designer.vb">
+      <DependentUpon>frmImportDelivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\frmImportDelivery.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Delivery\ucDelivery.Designer.vb">
+      <DependentUpon>ucDelivery.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Delivery\ucDelivery.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Inventory\ucInventory.Designer.vb">
+      <DependentUpon>ucInventory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory\ucInventory.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Main\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmMessagebox.Designer.vb">
+      <DependentUpon>frmMessagebox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmMessagebox.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmTab.Designer.vb">
+      <DependentUpon>frmTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module\modGeneral.vb" />
+    <Compile Include="Module\modGUI.vb" />
+    <Compile Include="Repository\clsRepositoryItemGroup.vb" />
+    <Compile Include="Repository\clsRepositoryProduct.vb" />
+    <Compile Include="Repository\clsRepositoryRawmats.vb" />
+    <Compile Include="Repository\Dialogs\frmItemGroupInfo.Designer.vb">
+      <DependentUpon>frmItemGroupInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\Dialogs\frmItemGroupInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repository\Dialogs\frmProductItemInfo.Designer.vb">
+      <DependentUpon>frmProductItemInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\Dialogs\frmProductItemInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repository\modRepositories.vb" />
+    <Compile Include="Module\modVariables.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Repository\Dialogs\frmRawmatsInfo.Designer.vb">
+      <DependentUpon>frmRawmatsInfo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\Dialogs\frmRawmatsInfo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Repository\Peripherals\ucRawmat.Designer.vb">
+      <DependentUpon>ucRawmat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\Peripherals\ucRawmat.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Repository\ucRepositories.Designer.vb">
+      <DependentUpon>ucRepositories.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Repository\ucRepositories.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucButton.Designer.vb">
+      <DependentUpon>ucButton.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucButton.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucIcon.Designer.vb">
+      <DependentUpon>ucIcon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucIcon.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucMenu.Designer.vb">
+      <DependentUpon>ucMenu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucMenu.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucMenuTabControl.Designer.vb">
+      <DependentUpon>ucMenuTabControl.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucMenuTabControl.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucNotifications.Designer.vb">
+      <DependentUpon>ucNotifications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucNotifications.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucSearch.Designer.vb">
+      <DependentUpon>ucSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucSearch.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucShortcut.Designer.vb">
+      <DependentUpon>ucShortcut.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucShortcut.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control\ucTextbox.Designer.vb">
+      <DependentUpon>ucTextbox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User Control\ucTextbox.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Delivery\frmImportDelivery.resx">
+      <DependentUpon>frmImportDelivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Delivery\ucDelivery.resx">
+      <DependentUpon>ucDelivery.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory\ucInventory.resx">
+      <DependentUpon>ucInventory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmMessagebox.resx">
+      <DependentUpon>frmMessagebox.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmTab.resx">
+      <DependentUpon>frmTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repository\Dialogs\frmItemGroupInfo.resx">
+      <DependentUpon>frmItemGroupInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repository\Dialogs\frmProductItemInfo.resx">
+      <DependentUpon>frmProductItemInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repository\Dialogs\frmRawmatsInfo.resx">
+      <DependentUpon>frmRawmatsInfo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repository\Peripherals\ucRawmat.resx">
+      <DependentUpon>ucRawmat.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Repository\ucRepositories.resx">
+      <DependentUpon>ucRepositories.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucButton.resx">
+      <DependentUpon>ucButton.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucIcon.resx">
+      <DependentUpon>ucIcon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucMenu.resx">
+      <DependentUpon>ucMenu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucMenuTabControl.resx">
+      <DependentUpon>ucMenuTabControl.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucNotifications.resx">
+      <DependentUpon>ucNotifications.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucSearch.resx">
+      <DependentUpon>ucSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucShortcut.resx">
+      <DependentUpon>ucShortcut.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control\ucTextbox.resx">
+      <DependentUpon>ucTextbox.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,143 @@
+msg,2018-Sep-18 03:11 PM, method block, error message
+important,2018-Sep-18 03:11 PM, method block, error message
+error,2018-Sep-18 03:11 PM, method block, error message
+msg,2018-Sep-18 03:12 PM, method block, error message
+important,2018-Sep-18 03:12 PM, method block, error message
+error,2018-Sep-18 03:12 PM, method block, error message
+msg,2018-Sep-18 03:19 PM, method block, msg message
+msg,2018-Sep-18 03:19 PM, method block, msg message
+error,2018-Sep-18 03:20 PM, method block, error message
+error,2018-Sep-18 03:20 PM, method block, error message
+error,2018-Sep-18 03:20 PM, method block, error message
+msg,2018-Sep-18 03:22 PM, method block, msg message
+important,2018-Sep-18 03:22 PM, method block, important message
+error,2018-Sep-18 03:22 PM, method block, error message
+msg,2018-Sep-18 03:23 PM, method block, msg message
+important,2018-Sep-18 03:23 PM, method block, important message
+error,2018-Sep-18 03:23 PM, method block, error message
+important,2018-Sep-18 03:23 PM, method block, important message
+msg,2018-Sep-18 03:24 PM, method block, msg message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:24 PM, method block, error message
+error,2018-Sep-18 03:27 PM, method block, error message
+error,2018-Sep-18 03:27 PM, method block, error message
+error,2018-Sep-18 03:27 PM, method block, error message
+error,2018-Sep-18 03:28 PM, method block, error message
+error,2018-Sep-18 03:28 PM, method block, error message
+error,2018-Sep-18 03:29 PM, method block, error message
+error,2018-Sep-18 03:30 PM, method block, error message
+error,2018-Sep-18 03:31 PM, method block, error message
+error,2018-Sep-18 03:33 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:34 PM, method block, error message
+error,2018-Sep-18 03:39 PM, getItemGroupList, Invalid column name 'IDateUpdated'.
+error,2018-Sep-21 10:36 AM, getRawmatsList, Invalid column name 'idGroup'.
+error,2018-Sep-21 10:36 AM, getRawmatsList, Invalid column name 'idGroup'.
+error,2018-Sep-21 10:37 AM, getRawmatsList, Invalid column name 'idGroup'.
+msg,2018-Sep-21 05:21 PM, btnEdit_Click, Carl [ 1 ] 
+                                        trying to edit
+msg,2018-Sep-21 05:23 PM, btnEdit_Click, Username Carl [ 1 ] is trying to edit
+msg,2018-Sep-21 05:26 PM, btnSave_Click, Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:06 PM, btnSave_Click, Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:06 PM, btnSave_Click, Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:26 PM, btnSave_Click, Username Carl [ 1 ] bla bla
+error,2018-Sep-24 02:26 PM, saveRawmats, Incorrect syntax near the keyword 'VALUES'.
+msg,2018-Sep-24 02:26 PM, saveRawmats, Succesfully Saved
+msg,2018-Sep-24 02:27 PM, btnSave_Click, Username Carl [ 1 ] bla bla
+error,2018-Sep-24 02:27 PM, saveRawmats, Incorrect syntax near the keyword 'VALUES'.
+msg,2018-Sep-24 02:27 PM, saveRawmats, Succesfully Saved
+msg,2018-Sep-24 02:34 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+error,2018-Sep-24 02:34 PM, saveRawmats, Must declare the scalar variable "@iditemgoup".
+msg,2018-Sep-24 02:34 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:35 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+error,2018-Sep-24 02:36 PM, saveRawmats, The parameterized query '(@iditemgroup int,@idbusinessunit int,@rsku nvarchar(3),@rsapcod' expects the parameter '@rhash', which was not supplied.
+msg,2018-Sep-24 02:36 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:39 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+error,2018-Sep-24 02:39 PM, saveRawmats, The parameterized query '(@iditemgroup int,@idbusinessunit int,@rsku nvarchar(8),@rsapcod' expects the parameter '@rhash', which was not supplied.
+msg,2018-Sep-24 02:39 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:41 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:43 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:48 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:48 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:51 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:51 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:51 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:51 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:53 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:53 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 02:54 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 02:54 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 03:02 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 03:02 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 03:03 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 03:03 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 03:52 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 03:52 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 04:43 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 04:43 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-24 04:43 PM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-24 04:43 PM, saveRawmats, Carl [1] success
+msg,2018-Sep-25 08:53 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-25 08:53 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-25 10:32 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-25 10:32 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-25 10:32 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-25 10:32 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:38 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:38 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:47 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:47 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:48 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:48 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:49 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:49 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:50 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:50 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:53 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:53 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:54 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:54 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:54 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:54 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:56 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:56 AM, saveRawmats, Carl [1] success
+msg,2018-Sep-28 10:57 AM, btnSave_Click, Carl [1] Username Carl [ 1 ] bla bla
+msg,2018-Sep-28 10:57 AM, saveRawmats, Carl [1] success
+msg,2018-Oct-01 12:03 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-01 01:25 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-02 09:40 AM, saveRawmats, Carl [1] success
+msg,2018-Oct-02 09:41 AM, saveRawmats, Carl [1] success
+msg,2018-Oct-02 09:42 AM, saveRawmats, Carl [1] success
+msg,2018-Oct-02 09:52 AM, saveRawmats, Carl [1] success
+msg,2018-Oct-02 11:12 AM, saveRawmats, Mac [3] success
+msg,2018-Oct-02 12:00 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-02 12:00 PM, saveRawmats, Carl [1] success
+error,2018-Oct-05 11:31 AM, initializeDBDateTime, Conversion from type 'DateTimeOffset' to type 'Date' is not valid.
+error,2018-Oct-05 11:32 AM, initializeDBDateTime, Conversion from type 'DateTimeOffset' to type 'Date' is not valid.
+error,2018-Oct-05 11:34 AM, initializeDBDateTime, Conversion from type 'DateTimeOffset' to type 'Date' is not valid.
+msg,2018-Oct-05 02:34 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:35 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:38 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:39 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:39 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:39 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:41 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:42 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:44 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:44 PM, saveRawmats, Carl [1] success
+msg,2018-Oct-05 02:45 PM, saveRawmats, Carl [1] success
